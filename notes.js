@@ -9,8 +9,6 @@ const addNotes = function(title, body) {
     const duplicateNotes = notes.filter( function() {
         return notes.title===title
     })
-
-    debugger
     if(duplicateNotes.length===0){
         
         notes.push({
